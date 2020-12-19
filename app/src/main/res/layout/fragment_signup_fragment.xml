@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shopping">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bag_login"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="70dp"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/courgette"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15sp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:text="Hello Motto"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="Welcome Back"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="2dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Sign Up to Continue"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Full Name"
+            android:paddingLeft="10dp"
+            android:layout_marginHorizontal="24dp"
+            android:inputType="textPersonName"
+            android:layout_marginTop="24dp"
+            android:background="@color/white"
+            android:layout_height="50dp"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Email (Optional)"
+            android:paddingLeft="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_height="50dp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Mobile Number"
+            android:paddingLeft="10dp"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_height="50dp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:layout_height="50dp"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Forgot Password ?"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            android:gravity="right"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_corner"
+            android:layout_height="45dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Sign Up now"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginVertical="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/purple_500"
+                android:text="You have an account ?"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Login"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:id="@+id/login"
+                android:textColor="@color/purple_500"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

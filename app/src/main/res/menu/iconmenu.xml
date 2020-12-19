@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile"
+        android:title="My Profile"
+        android:icon="@drawable/user"
+        ></item>
+
+
+    <item
+        android:id="@+id/orders"
+        android:title="My Orders"
+        android:icon="@drawable/order"
+        ></item>
+
+    <item
+        android:id="@+id/wallet"
+        android:title="My Wallet"
+        android:icon="@drawable/wallet" />
+
+    <item
+        android:id="@+id/help"
+        android:title="Help &amp; Support"
+        android:icon="@drawable/help"
+        ></item>
+
+
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        android:icon="@drawable/information"
+        ></item>
+
+    <item
+        android:id="@+id/delivery"
+        android:title="Delivery Imformation"
+        android:icon="@drawable/food_delivery"
+        ></item>
+
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy_policy"
+        ></item>
+
+
+    <item
+        android:id="@+id/termcondition"
+        android:title="Terms &amp; Conditions"
+        android:icon="@drawable/terms_and_conditions"
+        ></item>
+</menu>

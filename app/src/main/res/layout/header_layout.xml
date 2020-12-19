@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:src="@drawable/bag_login"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="80dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Hello Motto"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text1"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:fontFamily="@font/courgette"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Login Now"
+        android:textStyle="bold"
+        android:fontFamily="@font/allerta"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text2"
+        android:layout_height="wrap_content"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>

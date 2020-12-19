@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="20dp"
+        android:elevation="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_height="220dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/bird"
+            android:id="@+id/imgtime"
+            android:scaleType="fitXY"
+            android:layout_height="150dp"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="New Year Offer 2021"
+            android:fontFamily="@font/allerta"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text_timeoffer"
+            android:layout_height="wrap_content"></TextView>
+          <TextView
+              android:layout_width="match_parent"
+              android:text="Shop for INR 2000 rupee or get 1 Kg Super Free"
+              android:layout_marginHorizontal="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginTop="5dp"
+              android:id="@+id/text_timeoffer2"
+              android:layout_height="wrap_content"></TextView>
+      </LinearLayout>
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+</RelativeLayout>
